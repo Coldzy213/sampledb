@@ -59,3 +59,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = sampledb.ShowUsersPage.xaml
 build_metadata.AdditionalFiles.TargetPath = ShowUsersPage.xaml
 build_metadata.AdditionalFiles.RelativePath = ShowUsersPage.xaml
+
+[D:/MobileApp/Maui/sampledb/UpdateUserPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = sampledb.UpdateUserPage.xaml
+build_metadata.AdditionalFiles.TargetPath = UpdateUserPage.xaml
+build_metadata.AdditionalFiles.RelativePath = UpdateUserPage.xaml

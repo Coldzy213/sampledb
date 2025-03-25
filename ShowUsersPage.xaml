@@ -9,14 +9,55 @@
             <Label Text="Users List"
                    FontSize="20"
                    FontAttributes="Bold"/>
+
             <ListView x:Name="UsersListView">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding Name}"
-                                  Detail="{Binding Email}"/>
+                        <ViewCell>
+                            <Grid Padding="5"
+                                  ColumnSpacing="10">
+                                <!-- Define Columns -->
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <!-- Name & Email take full space -->
+                                    <ColumnDefinition Width="Auto"/>
+                                    <!-- Buttons take required space -->
+                                </Grid.ColumnDefinitions>
+
+                                <!-- User's Name & Email (Left-aligned) -->
+                                <StackLayout Grid.Column="0">
+                                    <Label Text="{Binding Name}"
+                                           FontAttributes="Bold"
+                                           VerticalOptions="Center"/>
+                                    <Label Text="{Binding Email}"
+                                           FontSize="12"
+                                           TextColor="Gray"
+                                           VerticalOptions="Center"/>
+                                </StackLayout>
+
+                                <!-- Buttons (Right-aligned) -->
+                                <StackLayout Orientation="Horizontal"
+                                             HorizontalOptions="End"
+                                             Grid.Column="1">
+                                    <Button Text="Update"
+                                            BackgroundColor="Orange"
+                                            TextColor="White"
+                                            Margin="5"
+                                            Clicked="OnUpdateUserClicked"
+                                            CommandParameter="{Binding .}"/>
+                                    <Button Text="Delete"
+                                            BackgroundColor="Red"
+                                            TextColor="White"
+                                            Margin="5"
+                                            Clicked="OnDeleteUserClicked"
+                                            CommandParameter="{Binding .}"/>
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+
             <Button Text="Back"
                     Clicked="OnBackClicked"/>
         </VerticalStackLayout>
