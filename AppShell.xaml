@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <Shell
     x:Class="sampledb.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
@@ -8,8 +7,23 @@
     Title="sampledb">
 
     <ShellContent
-        Title="Home"
+        Title="Todo List"
+        ContentTemplate="{DataTemplate local:TodoList}"
+        Route="TodoList"/>
+
+    <ShellContent
+        Title="CRUD"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Route="MainPage"/>
+
+    <ShellContent
+        Title="Weather App"
+        ContentTemplate="{DataTemplate local:WeatherApp}"
+        Route="WeatherApp"/>
+
+    <!-- Add this MenuItem for toggling theme -->
+    <MenuItem
+        Text="Toggle Theme"
+        Clicked="OnToggleThemeClicked"/>
 
 </Shell>

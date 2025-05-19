@@ -11,4 +11,11 @@ public partial class App : Application
 	{
 		return new Window(new AppShell());
 	}
+	 public void ToggleTheme()
+    {
+        if (Current.UserAppTheme == AppTheme.Light)
+            Current.UserAppTheme = AppTheme.Dark;
+        else
+            Current.UserAppTheme = AppTheme.Light;
+    }
 }

@@ -6,7 +6,7 @@
         <VerticalStackLayout Padding="20"
                              Spacing="10">
                 <Label HorizontalOptions="Center"
-                       Text="Utilizing SQLite"
+                       Text="Title"
                        FontSize="20"/>
                 <Button BackgroundColor="Green"
                         TextColor="White"
@@ -14,6 +14,9 @@
                         Clicked="OnAddUserClicked"/>
                 <Button Text="Show Users"
                         Clicked="OnShowUsersClicked"/>
+                <Button Text="Toggle Theme"
+                        Clicked="OnToggleThemeClicked"/>
+
         </VerticalStackLayout>
 
 </ContentPage>

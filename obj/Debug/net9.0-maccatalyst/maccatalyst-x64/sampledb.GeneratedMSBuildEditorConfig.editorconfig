@@ -3,6 +3,11 @@ build_property.EnableAotAnalyzer =
 build_property.EnableSingleFileAnalyzer = 
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
+build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
+build_property._MvvmToolkitIsUsingWindowsRuntimePack = false
+build_property.CsWinRTComponent = 
+build_property.CsWinRTAotOptimizerEnabled = 
+build_property.CsWinRTAotWarningLevel = 
 build_property.TargetFramework = net9.0-maccatalyst
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -60,8 +65,20 @@ build_metadata.AdditionalFiles.ManifestResourceName = sampledb.ShowUsersPage.xam
 build_metadata.AdditionalFiles.TargetPath = ShowUsersPage.xaml
 build_metadata.AdditionalFiles.RelativePath = ShowUsersPage.xaml
 
+[D:/MobileApp/Maui/sampledb/TodoList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = sampledb.TodoList.xaml
+build_metadata.AdditionalFiles.TargetPath = TodoList.xaml
+build_metadata.AdditionalFiles.RelativePath = TodoList.xaml
+
 [D:/MobileApp/Maui/sampledb/UpdateUserPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = sampledb.UpdateUserPage.xaml
 build_metadata.AdditionalFiles.TargetPath = UpdateUserPage.xaml
 build_metadata.AdditionalFiles.RelativePath = UpdateUserPage.xaml
+
+[D:/MobileApp/Maui/sampledb/WeatherApp.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = sampledb.WeatherApp.xaml
+build_metadata.AdditionalFiles.TargetPath = WeatherApp.xaml
+build_metadata.AdditionalFiles.RelativePath = WeatherApp.xaml

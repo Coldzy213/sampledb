@@ -3,23 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="sampledb.AddUserPage">
 
-    <VerticalStackLayout Padding="20"
-                         Spacing="10">
-        <Label Text="Enter User Details"
-               FontSize="20"
-               FontAttributes="Bold"/>
-        <Entry x:Name="NameEntry"
-               Placeholder="Enter Name"/>
-        <Entry x:Name="EmailEntry"
-               Placeholder="Enter Email"
-               Keyboard="Email"/>
-        <Button BackgroundColor="Green"
-                TextColor="White"
-                Text="Save User"
-                Clicked="OnSaveUserClicked"/>
-        <Button BackgroundColor="Gray"
-                Text="Back"
-                Clicked="OnBackClicked"/>
-    </VerticalStackLayout>
+       <VerticalStackLayout Padding="20"
+                            Spacing="10">
+              <Label Text="Enter User Details"
+                     FontSize="20"
+                     FontAttributes="Bold"/>
+              <Entry x:Name="NameEntry"
+                     Placeholder="Enter Name"/>
+              <Entry x:Name="EmailEntry"
+                     Placeholder="Enter Email"
+                     Keyboard="Email"/>
+              <Button BackgroundColor="Blue"
+                      TextColor="White"
+                      Text="Save User"
+                      Clicked="OnSaveUserClicked"/>
+              <Button BackgroundColor="#e0135f"
+                      Text="Back"
+                      Clicked="OnBackClicked"/>
+       </VerticalStackLayout>
 
 </ContentPage>

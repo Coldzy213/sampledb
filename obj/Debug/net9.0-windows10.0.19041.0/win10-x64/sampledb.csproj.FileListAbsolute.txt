@@ -59,7 +59,6 @@ D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appico
 D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.scale-125.png
 D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.scale-100.png
 D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appicon.ico
-D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\runtimes\win-x64\native\WebView2Loader.dll
 D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CoreMessagingXP.dll
 D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dcompi.dll
 D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dwmcorei.dll
@@ -294,6 +293,9 @@ D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sample
 D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\sampledb.pdb
 D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\resources.pri
 D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Web.WebView2.Core.dll
+D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.dll
+D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.Core.dll
+D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
 D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.dll
 D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.DependencyInjection.dll
@@ -331,6 +333,7 @@ D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SQLite
 D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.batteries_v2.dll
 D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
 D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\System.Speech.dll
 D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ar\Microsoft.Maui.Controls.resources.dll
 D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ca\Microsoft.Maui.Controls.resources.dll
 D:\MobileApp\Maui\sampledb\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\cs\Microsoft.Maui.Controls.resources.dll
@@ -452,6 +455,7 @@ D:\MobileApp\Maui\sampledb\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauiim
 D:\MobileApp\Maui\sampledb\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\sampledb.AssemblyInfoInputs.cache
 D:\MobileApp\Maui\sampledb\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\sampledb.AssemblyInfo.cs
 D:\MobileApp\Maui\sampledb\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\sampledb.csproj.CoreCompileInputs.cache
+D:\MobileApp\Maui\sampledb\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\sampledb.sourcelink.json
 D:\MobileApp\Maui\sampledb\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\XamlC.stamp
 D:\MobileApp\Maui\sampledb\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\sampledb.csproj.Up2Date
 D:\MobileApp\Maui\sampledb\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\sampledb.dll
@@ -474,4 +478,3 @@ D:\MobileApp\Maui\sampledb\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\pri.re
 D:\MobileApp\Maui\sampledb\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 D:\MobileApp\Maui\sampledb\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\MobileApp\Maui\sampledb\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
-D:\MobileApp\Maui\sampledb\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\sampledb.sourcelink.json

@@ -16,15 +16,14 @@
                         <ViewCell>
                             <Grid Padding="5"
                                   ColumnSpacing="10">
-                                <!-- Define Columns -->
+
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
-                                    <!-- Name & Email take full space -->
+
                                     <ColumnDefinition Width="Auto"/>
-                                    <!-- Buttons take required space -->
                                 </Grid.ColumnDefinitions>
 
-                                <!-- User's Name & Email (Left-aligned) -->
+
                                 <StackLayout Grid.Column="0">
                                     <Label Text="{Binding Name}"
                                            FontAttributes="Bold"
@@ -35,7 +34,6 @@
                                            VerticalOptions="Center"/>
                                 </StackLayout>
 
-                                <!-- Buttons (Right-aligned) -->
                                 <StackLayout Orientation="Horizontal"
                                              HorizontalOptions="End"
                                              Grid.Column="1">

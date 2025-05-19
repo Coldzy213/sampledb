@@ -17,4 +17,9 @@ public partial class MainPage : ContentPage
     {
         await Navigation.PushAsync(new ShowUsersPage());
     }
+    private void OnToggleThemeClicked(object sender, EventArgs e)
+    {
+        (Application.Current as App)?.ToggleTheme();
+    }
+
 }

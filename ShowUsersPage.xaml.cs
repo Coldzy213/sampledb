@@ -39,7 +39,7 @@ private async void OnUpdateUserClicked(object sender, EventArgs e)
             if (confirm)
             {
                 await _databaseHelper.DeleteUserAsync(user);
-                LoadUsers(); // Refresh list
+                LoadUsers(); 
             }
         }
     }

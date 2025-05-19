@@ -10,7 +10,7 @@ public partial class UpdateUserPage : ContentPage
         InitializeComponent();
         _user = user;
         NameEntry.Text = _user.Name;
-        EmailEntry.Text = _user.Email; // Load existing email
+        EmailEntry.Text = _user.Email;
     }
 
     private async void OnUpdateUserClicked(object sender, EventArgs e)
@@ -18,7 +18,7 @@ public partial class UpdateUserPage : ContentPage
         if (!string.IsNullOrWhiteSpace(NameEntry.Text) && !string.IsNullOrWhiteSpace(EmailEntry.Text))
         {
             _user.Name = NameEntry.Text;
-            _user.Email = EmailEntry.Text; // Update email
+            _user.Email = EmailEntry.Text; 
             await _databaseHelper.UpdateUserAsync(_user);
             await DisplayAlert("Success", "User updated successfully!", "OK");
             await Navigation.PopAsync();
@@ -31,6 +31,6 @@ public partial class UpdateUserPage : ContentPage
 
     private async void OnCancelClicked(object sender, EventArgs e)
     {
-        await Navigation.PopAsync();
+        await Navigation.PopAsync();    
     }
 }

@@ -26,18 +26,20 @@ public class DatabaseHelper
         return result;
     }
 
+     public async Task<int> UpdateUserAsync(User user)
+    {
+      return await _database.UpdateAsync(user);
+    }
+
+    public async Task<int> DeleteUserAsync(User user)
+    {
+       return await _database.DeleteAsync(user);
+    }
+
     public async Task<List<User>> GetUsersAsync()
     {
         var users = await _database.Table<User>().ToListAsync();
         return users;
     }
-      public async Task<int> UpdateUserAsync(User user)
-    {
-        return await _database.UpdateAsync(user);
-    }
-
-    public async Task<int> DeleteUserAsync(User user)
-    {
-        return await _database.DeleteAsync(user);
-    }
+  
 }

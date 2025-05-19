@@ -1,0 +1,4 @@
+D:\MobileApp\Maui\sampledb\bin\Release\net9.0-android\publish\com.companyname.sampledb-Signed.aab
+D:\MobileApp\Maui\sampledb\bin\Release\net9.0-android\publish\com.companyname.sampledb.aab
+D:\MobileApp\Maui\sampledb\bin\Release\net9.0-android\publish\com.companyname.sampledb-Signed.apk
+D:\MobileApp\Maui\sampledb\bin\Release\net9.0-android\publish\_Microsoft.Android.Resource.Designer.dll
